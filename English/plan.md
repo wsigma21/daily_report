@@ -11,9 +11,7 @@ sigmaが独自に作成した英語学習の計画表です。
 
 ## 勉強法
 
-- [日本一わかりやすい英会話授業](https://www.youtube.com/watch?v=1JBI1-e0KmI&ab_channel=%E3%80%90RepezenFoxx%E3%80%91)
-
-### メモ
+### [日本一わかりやすい英会話授業](https://www.youtube.com/watch?v=1JBI1-e0KmI&ab_channel=%E3%80%90RepezenFoxx%E3%80%91)
 
 - Chromeの拡張機能LLN
   - Netflixで外国語を勉強できる
@@ -28,6 +26,15 @@ sigmaが独自に作成した英語学習の計画表です。
 - 1対1オンラインとNetflix勉強は同時進行で良い
   - これは永久に続ける
 
+### [【発音完全ロードマップ】たった3ステップで発音が劇的に向上する学習法](https://www.youtube.com/watch?v=4SCcPoVyJV8&ab_channel=Atsueigo)
+
+- まずは正しい音素（発音記号）を身につける
+- お手本と自分の発音を聞き比べることを繰り返す
+  - ある程度やったら人にチェックしてもらう
+  - 感情を込めながら練習する
+  - お手本は自分の声質（性別や高さ）にあっている方が比べやすい
+- 劇的に変えるコツがあるわけではなく、反復練習によって自分の発音を変えていく
+
 ## 計画表
 
 ### 基礎
@@ -40,10 +47,14 @@ sigmaが独自に作成した英語学習の計画表です。
 - [【最短最速】中学英語完全攻略【永久保存版】](https://youtu.be/-d-CgIl1ce4?si=zrok9COv967OIJQ7)
   - [x] 1周目 9/4まで
   - [ ] 2周目
+  - [x] PDF見て復習 1周目
 - [【完全イメージ化】基本動詞50選【総集編】](https://youtu.be/Sart2hfZgx0?si=w6P4qex_2ne-G7uZ)
   - [x] 1周目
   - [ ] 2周目
 - [【完全イメージ化】前置詞44選【総集編】](https://youtu.be/8nwxejhMf50?si=GT5BiGX0Ey79ISiZ)
+  - [ ] 1周目
+  - [ ] 2周目
+- [【完全イメージ化】高校英語完全攻略【永久保存版】](https://youtu.be/BegXZFcipUc?si=JXtKsP6Se6ZMYuBl)
   - [ ] 1周目
   - [ ] 2周目
 
@@ -64,6 +75,7 @@ sigmaが独自に作成した英語学習の計画表です。
   - [ ] 2周目 11/16 ~ 12/15
 - 基本文法から学ぶ英語リーディング教本
   - [ ] 1周目
+- キク英文法？
 
 ### 単語
 
@@ -75,13 +87,13 @@ sigmaが独自に作成した英語学習の計画表です。
 
 - [【永久保存版】たった30分で発音記号を完全攻略【速習まとめ】](https://www.youtube.com/watch?v=Qe3EmiFWgGM&ab_channel=Atsueigo)
   - [x] 1周目
-  - [ ] 2周目
+  - [x] 2周目
 - 発音マスタークラス
   - [ ] 1周目（夏季休暇中）
   - [ ] 2周目 9月中
 - [英語 リスニング：この英語、聞き取れるかな？ プレイリスト](https://www.youtube.com/playlist?list=PLbAvqVwUZG8yvMDq5aTCU6PcaOzqJvEYK)
   - 発音マスタークラスやりながらチェックとして使う予定
-- ELSAで発音チェック？
+- ELSA Speakで発音チェック？
 
 ### スピーキング
 
