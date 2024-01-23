@@ -11,8 +11,8 @@ fi
 
 # 累計学習時間の読み取り
 read read_total_time < $total_time_text_file_name
-time1=$(echo $read_total_time | cut -dh -f1)
-min1=$(echo $read_total_time | cut -dh -f2 | cut -dm -f1)
+time1=$(echo $read_total_time | cut -dh -f1 | sed 's/^0\+\([1-9][0-9]*\)$/\1/')
+min1=$(echo $read_total_time | cut -dh -f2 | cut -dm -f1 | sed 's/^0\+\([1-9][0-9]*\)$/\1/')
 
 # 引数チェック
 if [ -z $1 ]; then
@@ -21,8 +21,8 @@ if [ -z $1 ]; then
 fi
 
 # 引数から今日の学習時間と分を抽出
-time2=$(echo $1 | cut -dh -f1)
-min2=$(echo $1 | cut -dh -f2 | cut -dm -f1)
+time2=$(echo $1 | cut -dh -f1 | sed 's/^0\+\([1-9][0-9]*\)$/\1/')
+min2=$(echo $1 | cut -dh -f2 | cut -dm -f1 | sed 's/^0\+\([1-9][0-9]*\)$/\1/')
 
 
 # 時間と分を合計
@@ -36,7 +36,7 @@ if [ $total_min -ge 60 ]; then
 fi
 
 # 結果を表示
-result="${total_time}h$(printf %02d $total_min)m"
+result="$(printf %02d $total_time)h$(printf %02d $total_min)m"
 echo $result
 
 # 結果をファイルに保存

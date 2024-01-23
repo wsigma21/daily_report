@@ -12,10 +12,10 @@ if [ -z $2 ]; then
 fi
 
 # 引数から時間と分を抽出
-time1=$(echo $1 | cut -dh -f1)
-min1=$(echo $1 | cut -dh -f2 | cut -dm -f1)
-time2=$(echo $2 | cut -dh -f1)
-min2=$(echo $2 | cut -dh -f2 | cut -dm -f1)
+time1=$(echo $1 | cut -dh -f1 | sed 's/^0\+\([1-9][0-9]*\)$/\1/')
+min1=$(echo $1 | cut -dh -f2 | cut -dm -f1 | sed 's/^0\+\([1-9][0-9]*\)$/\1/')
+time2=$(echo $2 | cut -dh -f1 | sed 's/^0\+\([1-9][0-9]*\)$/\1/')
+min2=$(echo $2 | cut -dh -f2 | cut -dm -f1 | sed 's/^0\+\([1-9][0-9]*\)$/\1/')
 
 # 時間と分を合計
 total_time=$((time1 + time2))
@@ -28,4 +28,4 @@ if [ $total_min -ge 60 ]; then
 fi
 
 # 結果を表示
-echo "${total_time}h$(printf %02d $total_min)m"
+echo "$(printf %02d $total_time)h$(printf %02d $total_min)m"
